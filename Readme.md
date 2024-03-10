@@ -11,7 +11,7 @@ In this website I am gonna share everything about my life. Books Iam reading, Ga
 
 ### Prepare Started file for project.
 
-Create My HTML file and type my head content that it have:
+- Create My HTML file and type my head content that it have:
 
     1. [Normalize](https://necolas.github.io/normalize.css/) CSS File: to make all content get default property value.
     2. Font Awesome CDN: to use icon from [font-awesome](https://fontawesome.com/) website.
@@ -19,7 +19,7 @@ Create My HTML file and type my head content that it have:
     4. Main CSS File: the main css style fo whole project.
     *(Whole work in this file)*
 
-in Main CSS file i create some global rules to make every thing ready for development:
+- in Main CSS file i create some global rules to make every thing ready for development:
 
     1. set `box-sizing` property value to `border-box` and make the prefix code for it to all elements.
 
