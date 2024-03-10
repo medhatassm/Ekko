@@ -1,3 +1,4 @@
+
 # Ekko Website Template
 In this website I am gonna share everything about my life. Books Iam reading, Games Iam Playing, Stories and Events, it is like a portfolio but it something little personal.
 
@@ -92,7 +93,7 @@ Header have the logo & navigation links to sections in website.
 
     I make a logo as a because it just text without any image on it, so we can edit that a to make it look as we want, and clickable to go to link (same home page).
 
-    1. using `text-decoration` to erase all anchor default design.
+1. using `text-decoration` to erase all anchor default design.
 
 ```
 .header .container .logo {
@@ -101,7 +102,7 @@ Header have the logo & navigation links to sections in website.
      }
 ```
 
-    2. make it flex to set height and make the text center (vertical & horizontal), in mobile screen this element will have 50px of `height` and 100% of `width`, to make header be vertical in small screen (768px).
+2. make it flex to set height and make the text center (vertical & horizontal), in mobile screen this element will have 50px of `height` and 100% of `width`, to make header be vertical in small screen (768px).
 
 ```
 .header .container .logo {
@@ -116,13 +117,13 @@ Header have the logo & navigation links to sections in website.
 
     This links will be the navigator tools to go to web sections with just one click.
 
-    1. I make `ul` flex to make links inside it line up  horizontal, in mobile screen i make this element have `margin` auto to make it center when it have full width.
+1. I make `ul` flex to make links inside it line up  horizontal, in mobile screen i make this element have `margin` auto to make it center when it have full width.
 
-    2. the `a` inside item of `ul` have 72px of height to change the background color when user hover on it, and it flex to center the text inside it like logo, on small screen i change the (`padding` , `font-size` , `height`) to make look more good in small screen using media query.
+2. the `a` inside item of `ul` have 72px of height to change the background color when user hover on it, and it flex to center the text inside it like logo, on small screen i change the (`padding` , `font-size` , `height`) to make look more good in small screen using media query.
 
-    3. give this links a `transition` to make animation when user hover on it.
+3. give this links a `transition` to make animation when user hover on it.
 
-    4. using `::before` to make a line that have `width:0` and when user hover the link it will increase to `width:100%` in `0.3s`.
+4. using `::before` to make a line that have `width:0` and when user hover the link it will increase to `width:100%` in `0.3s`.
 
 ```
 .header .container ul li a::before {
@@ -136,7 +137,9 @@ Header have the logo & navigation links to sections in website.
     transition: var(--transition-value);
 }
 ```
-    5. using `:hover` to make all animation we prepare work.
+
+5. using `:hover` to make all animation we prepare work.
+
 ```
 .header .container ul li a:hover {
     background-color: #f9f9f9;
