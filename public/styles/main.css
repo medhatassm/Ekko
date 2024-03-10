@@ -1,4 +1,11 @@
 /* Start Variables */
+:root {
+    --main-color: #65B741;
+    --light-gray-color: #777;
+    --section-padding: 100px;
+    --transition-value: 0.4s;
+}
+
 /* End Variables */
 /* Start Global Rules */
 * {
@@ -20,6 +27,7 @@ ul {
 
 body {
     font-family: "Cairo", sans-serif;
+
 }
 
 .container {
@@ -27,7 +35,7 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    min-height: 97px;
+    /* min-height: 97px; */
 }
 
 /* Small */
@@ -54,3 +62,98 @@ body {
 /* End Global Variables */
 /* Start Components */
 /* End Components */
+
+/* Start Header */
+.header {
+    box-shadow: 0 0 10px #ddd;
+    position: relative;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+/* @media (max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+} */
+
+.header .container .logo {
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+    color: var(--main-color);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .header .container .logo {
+        height: 50px;
+        width: 100%;
+    }
+}
+
+.header .container ul {
+    display: flex;
+
+}
+
+@media (max-width: 768px) {
+    .header .container ul {
+        margin: auto;
+    }
+}
+
+
+.header .container ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 30px;
+    color: var(--light-gray-color);
+    transition: var(--transition-value);
+    height: 72px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .header .container ul li a {
+        padding: 10px;
+        font-size: 14px;
+        height: 40px;
+    }
+}
+
+.header .container ul li a::before {
+    content: '';
+    background-color: var(--main-color);
+    width: 0;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: var(--transition-value);
+}
+
+.header .container ul li a:hover {
+    background-color: #f9f9f9;
+    color: var(--main-color);
+}
+
+.header .container ul li a:hover::before {
+    width: 100%;
+}
+
+/* End Header */
