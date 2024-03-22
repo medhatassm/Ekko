@@ -1,12 +1,17 @@
-
 # Ekko Website Template
+
 In this website I am gonna share everything about my life. Books Iam reading, Games Iam Playing, Stories and Events, it is like a portfolio but it something little personal.
 
->[!tip]
->This a clone project to practice my skill in CSS & HTML.
->This project will be updated with js when i finish learn it.
+> [!tip]
+> This a clone project to practice my skill in CSS & HTML.
+> This project will be updated with js when i finish learn it.
 
 **I will emplane everything i code it to make this repository as recourse guide to check it later.**
+
+## Table of Content
+
+[[#Header]]
+[[#Landing Section]]
 
 ## Let's Start 💥
 
@@ -14,23 +19,23 @@ In this website I am gonna share everything about my life. Books Iam reading, Ga
 
 - Create My HTML file and type my head content that it have:
 
-    1. [Normalize](https://necolas.github.io/normalize.css/) CSS File: to make all content get default property value.
-    2. Font Awesome CDN: to use icon from [font-awesome](https://fontawesome.com/) website.
-    3. [Google Font](https://fonts.google.com/): using Cairo font style for all element in website.
-    4. Main CSS File: the main css style fo whole project.
-    *(Whole work in this file)*
+  1. [Normalize](https://necolas.github.io/normalize.css/) CSS File: to make all content get default property value.
+  2. Font Awesome CDN: to use icon from [font-awesome](https://fontawesome.com/) website.
+  3. [Google Font](https://fonts.google.com/): using Cairo font style for all element in website.
+  4. Main CSS File: the main css style fo whole project.
+     _(Whole work in this file)_
 
 - in Main CSS file i create some global rules to make every thing ready for development:
 
-    1. set `box-sizing` property value to `border-box` and make the prefix code for it to all elements.
+  1. set `box-sizing` property value to `border-box` and make the prefix code for it to all elements.
 
-    2. using `scroll-behavior` to make scroll in website smooth and look good.
+  2. using `scroll-behavior` to make scroll in website smooth and look good.
 
-    3. reset the style of ul (because we will use it a lot).
+  3. reset the style of ul (because we will use it a lot).
 
-    4. set `font-family` to (Cairo) for `body`.
+  4. set `font-family` to (Cairo) for `body`.
 
-    5. make container class to make sure my element will be in grid design and have the same padding and margin in all screen size, and make sure that element height will not be less than 100px.
+  5. make container class to make sure my element will be in grid design and have the same padding and margin in all screen size, and make sure that element height will not be less than 100px.
 
 ```
     .container {
@@ -91,7 +96,7 @@ Header have the logo & navigation links to sections in website.
 
 - Logo:
 
-    I make a logo as a because it just text without any image on it, so we can edit that a to make it look as we want, and clickable to go to link (same home page).
+  I make a logo as a because it just text without any image on it, so we can edit that a to make it look as we want, and clickable to go to link (same home page).
 
 1. using `text-decoration` to erase all anchor default design.
 
@@ -115,9 +120,9 @@ Header have the logo & navigation links to sections in website.
 
 - Links:
 
-    This links will be the navigator tools to go to web sections with just one click.
+  This links will be the navigator tools to go to web sections with just one click.
 
-1. I make `ul` flex to make links inside it line up  horizontal, in mobile screen i make this element have `margin` auto to make it center when it have full width.
+1. I make `ul` flex to make links inside it line up horizontal, in mobile screen i make this element have `margin` auto to make it center when it have full width.
 
 2. the `a` inside item of `ul` have 72px of height to change the background color when user hover on it, and it flex to center the text inside it like logo, on small screen i change the (`padding` , `font-size` , `height`) to make look more good in small screen using media query.
 
@@ -153,8 +158,3 @@ Header have the logo & navigation links to sections in website.
 ```
 
 ### Landing Section
-
-
-
-
-
