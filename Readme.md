@@ -1,12 +1,12 @@
 # Ekko Website Template
 
-In this website I am gonna share everything about my life. Books Iam reading, Games Iam Playing, Stories and Events, it is like a portfolio but it something little personal.
+On this website, I am gonna share everything about my life. Books I am reading, Games I am Playing, Stories and Events, it is like a portfolio but it is something a little personal.
 
 > [!tip]
-> This a clone project to practice my skill in CSS & HTML.
-> This project will be updated with js when i finish learn it.
+> This a clone project to practice my skills in CSS & HTML.
+> This project will be updated with js when I finish learning it.
 
-**I will emplane everything i code it to make this repository as recourse guide to check it later.**
+**I will explain everything I coded to make this repository as a recourse guide to check it later.**
 
 ## Table of Content
 - [Header](#Header)
@@ -14,27 +14,27 @@ In this website I am gonna share everything about my life. Books Iam reading, Ga
 
 ## Let's Start 💥
 
-### Prepare Started file for project.
+### Prepare the Started file for a project.
 
-- Create My HTML file and type my head content that it have:
+- Create My HTML file and type my head content that it has:
 
-  1. [Normalize](https://necolas.github.io/normalize.css/) CSS File: to make all content get default property value.
-  2. Font Awesome CDN: to use icon from [font-awesome](https://fontawesome.com/) website.
+  1. [Normalize](https://necolas.github.io/normalize.css/) CSS File: to make all content get a default property value.
+  2. Font Awesome CDN: to use the icon from [font-awesome](https://fontawesome.com/) website.
   3. [Google Font](https://fonts.google.com/): using Cairo font style for all element in website.
-  4. Main CSS File: the main css style fo whole project.
+  4. Main CSS File: the main CSS style for the whole project.
      _(Whole work in this file)_
 
-- in Main CSS file i create some global rules to make every thing ready for development:
+- in the Main CSS file I create some global rules to make everything ready for development:
 
-  1. set `box-sizing` property value to `border-box` and make the prefix code for it to all elements.
+  1. set the `box-sizing` property value to `border-box` and make the prefix code for it to all elements.
 
-  2. using `scroll-behavior` to make scroll in website smooth and look good.
+  2. using `scroll-behavior` to make the scroll in the website smooth and look good.
 
   3. reset the style of ul (because we will use it a lot).
 
   4. set `font-family` to (Cairo) for `body`.
 
-  5. make container class to make sure my element will be in grid design and have the same padding and margin in all screen size, and make sure that element height will not be less than 100px.
+  5. make a container class to make sure my element will be in grid design and have the same padding and margin in all screen sizes, and make sure that the element height will not be less than 100px.
 
 ```
     .container {
@@ -70,13 +70,13 @@ In this website I am gonna share everything about my life. Books Iam reading, Ga
 
 ### Header
 
-Header have the logo & navigation links to sections in website.
+The header has the logo & navigation links to sections in the website.
 
-1. first we make header `position` relative to make it take all width of screen without interferes property of our container (padding , margin).
+1. first we make the header `position` relative to make it take all the width of the screen without interfering property of our container (padding, margin).
 
-2. then i create a box-shadow to make header look like navigation bar (stander design).
+2. then I create a box-shadow to make the header look like a navigation bar (stander design).
 
-3. after that i make the container be flex to make elements inside it get to next to each other, and make it wrap for mobile screen (not in media query).
+3. after that I make the container flex to make elements inside it get next to each other and make it wrap for mobile screen (not in media query).
 
 ```
 .header {
@@ -95,9 +95,9 @@ Header have the logo & navigation links to sections in website.
 
 - Logo:
 
-  I make a logo as a because it just text without any image on it, so we can edit that a to make it look as we want, and clickable to go to link (same home page).
+  I made a logo because it is just text without any image on it, so we can edit that to make it look as we want, and clickable to go to the link (same home page).
 
-1. using `text-decoration` to erase all anchor default design.
+1. using `text-decoration` to erase all anchor default designs.
 
 ```
 .header .container .logo {
@@ -106,7 +106,7 @@ Header have the logo & navigation links to sections in website.
      }
 ```
 
-2. make it flex to set height and make the text center (vertical & horizontal), in mobile screen this element will have 50px of `height` and 100% of `width`, to make header be vertical in small screen (768px).
+2. make it flexible to set height and make the text center (vertical & horizontal), in a mobile screen this element will have 50px of `height` and 100% of `width`, to make the header vertical in a small screen (768px).
 
 ```
 .header .container .logo {
@@ -119,15 +119,15 @@ Header have the logo & navigation links to sections in website.
 
 - Links:
 
-  This links will be the navigator tools to go to web sections with just one click.
+  These links will be the navigator tools to go to web sections with just one click.
 
-1. I make `ul` flex to make links inside it line up horizontal, in mobile screen i make this element have `margin` auto to make it center when it have full width.
+1. I make `ul` flex to make links inside it line up horizontally, in the mobile screen I make this element have `margin` auto to make it center when it has full width.
 
-2. the `a` inside item of `ul` have 72px of height to change the background color when user hover on it, and it flex to center the text inside it like logo, on small screen i change the (`padding` , `font-size` , `height`) to make look more good in small screen using media query.
+2. the `a` inside item of `ul` has 72px of height to change the background color when the user hovers on it, and it flexes to center the text inside it like a logo, on a small screen I change the (`padding`, `font-size`, `height`) to make look better in the small screen using media query.
 
-3. give this links a `transition` to make animation when user hover on it.
+3. give these links a `transition` to make animation when the user hovers over it.
 
-4. using `::before` to make a line that have `width:0` and when user hover the link it will increase to `width:100%` in `0.3s`.
+4. Use `::before` to make a line that has `width:0` and when the user hovers the link it will increase to `width:100%` in `0.3s`.
 
 ```
 .header .container ul li a::before {
