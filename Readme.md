@@ -9,9 +9,8 @@ In this website I am gonna share everything about my life. Books Iam reading, Ga
 **I will emplane everything i code it to make this repository as recourse guide to check it later.**
 
 ## Table of Content
-
-[Header](#Header)
-[[#Landing Section]]
+- [Header](#Header)
+- [Landing Section](#Landing-Section)
 
 ## Let's Start 💥
 
