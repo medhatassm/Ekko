@@ -32,4 +32,10 @@ this is the home page of the website that shares information about me, it has a 
 - Discount
 - Footer
 
-## Screen Shot
+### What did I learn when doing this website?
+I learned a lot about animation and how I can use it to make my website alive and practiced on grid and flex-box to make my website responsive to any screen size did a lot of modern style with before and after (pseudo-element), and learned more about the transaction and transform to deal with x-axis and y-axis, and a lot of things in this website.
+
+>[!important]
+>This Website design is a learning project from ElZero Web School Website And this is one of four templates that I made to learn front-end basics. (3/4).
+
+
