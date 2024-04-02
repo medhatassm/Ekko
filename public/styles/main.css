@@ -480,9 +480,9 @@ body {
 
 .landing .image img {
     position: relative;
-    width: 300px;
+    width: 500px;
     animation: up-and-down 5s linear infinite;
-    right: 150px;
+    
 }
 
 @media (max-width: 991px) {
