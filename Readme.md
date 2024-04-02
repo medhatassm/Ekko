@@ -1,6 +1,6 @@
 # Ekko Website Template
 
-On this website, I am gonna share everything about my life. Books I am reading, Games I am Playing, Stories and Events, it is like a portfolio but it is something a little personal.
+On this website, I am going to share everything about my life. Books I am reading, Games I am Playing, Stories and Events, it is like a portfolio but it is something a little personal.
 
 > [!tip]
 > This a clone project to practice my skills in CSS & HTML.
@@ -8,4 +8,28 @@ On this website, I am gonna share everything about my life. Books I am reading, 
 
 
 ## Description
-this is home page of web site that share information about me, it is have a lot of sections that contain information about me and let's Discover this sections.
+this is the home page of the website that shares information about me, it has a lot of sections that contain information about me and let's Discover this section.
+
+### Tools
+- HTML
+- CSS
+
+## Builded Sections
+- Header
+- Landing
+- Articles
+- Gallery
+- Features
+- Testimonials
+- Team
+- Services
+- Skills
+- How it Works
+- Latest Event
+- Pricing
+- Top Videos
+- Status
+- Discount
+- Footer
+
+## Screen Shot
